@@ -88,7 +88,7 @@ final class DocumentSection extends Section
 	 *
 	 * @api
 	 */
-	public function getReceivedDate(string|DateTimeZone $timezone = 'MSK'): ?DateTimeImmutable
+	public function getReceiptDate(string|DateTimeZone $timezone = 'MSK'): ?DateTimeImmutable
 	{
 		return $this->getDateField('ДатаПоступило', $timezone);
 	}
